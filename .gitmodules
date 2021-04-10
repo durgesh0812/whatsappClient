@@ -1,0 +1,3 @@
+[submodule "whatsapp_clone/Backend"]
+     path= whatsapp_clone/Backend
+     url=https://github.com/durgesh0812/whatsapp-clone.git
