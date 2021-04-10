@@ -10,7 +10,7 @@ function App() {
   const [messages,setMessages] = useState([])
 
   useEffect(()=>{
-    axios.get('https://whatsapp-cloneback.herokuapp.com//messages/sync')
+    axios.get('https://whatsapp-cloneback.herokuapp.com/messages/sync')
     .then((response)=>{
       setMessages(response.data)
       

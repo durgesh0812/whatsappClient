@@ -12,7 +12,7 @@ function Chat({messages}) {
     const sendMessage = async(e) =>{
         e.preventDefault();
 
-       await axios.post('https://whatsapp-cloneback.herokuapp.com//messages/new',{
+       await axios.post('https://whatsapp-cloneback.herokuapp.com/messages/new',{
             message: input,  
             name: "durgesh12",
             timestamp: "Just now",
